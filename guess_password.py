@@ -9,7 +9,7 @@ print('Generating password...')
 print('Please wait...')
 password_length = len(password)
 password_characters = digits + lower_case + upper_case
-print(len(password_characters)**password_length)
+print('No. of combination:',len(password_characters)**password_length)
 attampt = 0
 start = time.time()
 while True:
@@ -30,4 +30,5 @@ print('\nPasssword guess sucessfully ')
 print(f'Time taken to guess the password: {duration} seconds')
 print(f'Total attempts made: {attampt}')
 print('<<<        Password Cracked Successfully         >>>')
+
 
